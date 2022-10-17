@@ -210,7 +210,7 @@ img {
 }
 
 svg {
-  overflow: hidden;
+  overflow: auto;
   vertical-align: middle;
 }
 
@@ -263,6 +263,7 @@ input {
 button,
 select {
   text-transform: none;
+  position:relative;
 }
 
 [role="button"] {
@@ -302,7 +303,7 @@ input[type="checkbox"] {
 }
 
 textarea {
-  overflow: auto;
+  overflow: visible;
   resize: vertical;
 }
 
